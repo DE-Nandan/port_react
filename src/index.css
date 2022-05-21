@@ -14,10 +14,11 @@
 :root {
     --color-bg :#1f1f38;
     --color-bg-variant : #2c2c6c;
-    --color-primary : #4db5ff;
+    --color-primary : #85200c;
     --color-primary-variant : rgba(77,181,255,0.4);
-    --color-white : #fff;
-    --color-light : rgba(255,255,255,0.6);
+    --color-white : rgb(4, 4, 4);
+    --color-black : rgb(255, 255, 255);
+    --color-light : rgba(17, 16, 16, 0.6);
     --container-width-lg : 75%;
     --container-width-md : 86%;
     --container-width-sm : 90%;
@@ -37,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    background-image: url(../src/assets/wood1.jpg);
 }
 
 /*    Styles   */
@@ -96,7 +97,7 @@ a:hover{
 }
 
 .btn:hover{
-   background: var(--color-white);
+   background: var(--color-black);
    color: var(--color-bg);
    border: transparent;
 }
@@ -108,15 +109,10 @@ a:hover{
 }
 
 img {
-    /* display: block;
-    width: 22rem;
-    height: 30rem;
+     display: block; 
     position: absolute;
     object-fit: cover;
-    left: 50%;
-    margin-top: 4rem;
-    transform: translateX(-50%);
-    border-radius:12rem 12rem 0 0; */
+    
 }
 
 /*  Media Queries (Medium devices) */
@@ -139,3 +135,4 @@ img {
         margin-top: 2rem;
     }
 }
+
