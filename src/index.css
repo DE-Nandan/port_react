@@ -12,10 +12,10 @@
 }
 
 :root {
-    --color-bg :#1f1f38;
-    --color-bg-variant : #2c2c6c;
+    --color-bg :#c9978d;
+    --color-bg-variant : #c9978d;
     --color-primary : #85200c;
-    --color-primary-variant : rgba(77,181,255,0.4);
+    --color-primary-variant : rgba(228, 80, 75, 0.4);
     --color-white : rgb(4, 4, 4);
     --color-black : rgb(255, 255, 255);
     --color-light : rgba(17, 16, 16, 0.6);
@@ -38,7 +38,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/wood1.jpg);
+    background-image: url(../src/assets/tile2.webp);
 }
 
 /*    Styles   */
@@ -61,6 +61,7 @@ h1{
 
 section{
     margin-top: 8rem ;
+    height: 100vh;
 }
 
 section > h2 ,section >h5{
@@ -105,7 +106,7 @@ a:hover{
 
 .btn-primary{
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-light);
 }
 
 img {

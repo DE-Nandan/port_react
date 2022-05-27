@@ -53,6 +53,35 @@ header{
     right: -2.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
-    font-weight: 200;
+    font-weight: 1000;
     font-size: 0.9rem;
 }
+
+
+ @media screen and (max-width: 1024px){
+    
+    .header__container{
+       height: 68vh;
+       /* width: 50vh; */
+    }
+  
+} 
+/*  Media Queries (Small Devices) */
+ 
+@media screen and (max-width: 600px){
+   
+  
+    .header__container{
+        /* width: 100vh; */
+        height: 50vh;
+    }
+    
+   
+   
+  
+
+    .header__socials,.scroll__down
+    {
+        display: none;
+    }
+} 

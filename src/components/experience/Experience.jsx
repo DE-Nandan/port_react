@@ -2,7 +2,7 @@ import React from 'react'
 import "./experience.css"
 const experienc = () => {
   return (
-    <div>experienc</div>
+    <section id = 'experience'>About</section>
   )
 }
 
