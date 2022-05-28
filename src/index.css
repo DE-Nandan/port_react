@@ -61,7 +61,7 @@ h1{
 
 section{
     margin-top: 8rem ;
-    height: 100vh;
+   
 }
 
 section > h2 ,section >h5{
@@ -110,9 +110,10 @@ a:hover{
 }
 
 img {
-     display: block; 
-    position: absolute;
-    object-fit: cover;
+    display: block; 
+    width: 100%;
+    object-fit: contain;
+    
     
 }
 
