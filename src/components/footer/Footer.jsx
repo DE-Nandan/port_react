@@ -17,8 +17,8 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>  
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
+        <a href="https://www.facebook.com/people/Nandan-Kumar/100059024048843/"><FaFacebookF/></a>
+        <a href="https://www.instagram.com/de_nandan_/"><FiInstagram/></a>
         <a href="https://twitter.com"><IoLogoTwitter/></a>
       </div>
 

@@ -2,8 +2,10 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me4.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
+import {GiGraduateCap} from 'react-icons/gi'
+// import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
+
 const About = () => {
   return (
     <section id = 'about'>
@@ -23,22 +25,26 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Fresher</small>
+              <small>Intermediate at Programming And Web Development</small>
             </article>
             
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>0 Now</small>
+              <GiGraduateCap className='about__icon'/>
+              <h5>Education</h5>
+              <small>B.Tech from <span style={{fontWeight: 'bold'}}>National Institute of Technology Allahabad</span> <br />Current CPI : 9.18
+              
+              </small>
             </article>
             
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Project</h5>
-              <small>2-3</small>
+              <small>Participated in several <span style={{fontWeight: 'bold'}}>hackathons</span> and made some personel projects as well</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate iure eaque architecto quae. Itaque ea, ipsa maxime inventore nam quos nesciunt omnis totam dignissimos! Dignissimos amet beatae eligendi doloribus doloremque dolorum nulla ratione, praesentium dolorem, minus illum. Nam commodi sed voluptates magni soluta enim odio deserunt incidunt, eos totam?</p>
+          <p>Programming Enthusiast with keen interst for development . Currently looking forward to work on several <span style={{fontWeight: 'bold'}}>web based and game development</span> projects . Working on a few as a personal project and ready to work on it for a client <br/>
+          <br/> Enjoys Solving various <span style={{fontWeight: 'bold'}}>Data Structures and Algorithms</span> problems
+          </p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
        </div>
      </div>

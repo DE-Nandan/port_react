@@ -1,6 +1,6 @@
 .experience__container{
     display : grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
     gap: 2rem;
 }
 
@@ -65,3 +65,4 @@
     }
 } 
 
+ 

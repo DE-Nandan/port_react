@@ -17,23 +17,7 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
+            <p>Works on projects related to Front End Development made on React</p>
           </li>
         </ul>
       </article>
@@ -46,52 +30,20 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
+            <p>Full Stack Web Development</p>
           </li>
         </ul>
       </article>
       <article className='service'>
         <div className="service__head">
           <h3>
-            Content Creation
+            Programming
           </h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, impedit!</p>
+            <p>Can work on various algorithmic problems in various projects</p>
           </li>
         </ul>
       </article>

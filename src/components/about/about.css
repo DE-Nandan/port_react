@@ -46,10 +46,11 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    
 }
 
 .about__card:hover{
-    background:transparent ;
+    background: transparent ;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -65,8 +66,9 @@
 
 .about__card small{
     font-size:  0.7rem;
-    color: var(--color-black);
+    color: var(--color-primary);
 }
+
 
 .about__content p{
     margin: 2rem 0 2.6rem;
