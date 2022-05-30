@@ -1,7 +1,7 @@
 import React from 'react'
 import './testimonials.css'
 
-import AVTR1 from '../../assets/quo3.png'
+import AVTR1 from '../../assets/quo4.png'
 import AVTR2 from '../../assets/me3.jpg'
 import AVTR3 from '../../assets/me3.jpg'
 import AVTR4 from '../../assets/me3.jpg'
@@ -22,23 +22,23 @@ SwiperCore.use([Navigation]);
 const data = [
   {
     avatar : AVTR1,
-    name: "Ken Thompson",
-    review :  "One of my most productive days was throwing away 1,000 lines of code."
+    name: "Sir Thomas Buxton",
+    review :  "With ordinary talentand extraordinary perseverance, all things are attainable."
   },
   {
     avatar : AVTR1,
-    name: "Bjarne Stroustrup",
-    review : "I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone."
+    name: "Thomas J. Watson",
+    review : "Would you like me to give you a formula for success?  It s quite simple. Double your rate of failure."
   },
   {
     avatar : AVTR1,
-    name: "Ken Thompson",
-    review : "When in doubt, use brute force."
+    name: "Steve Jobs",
+    review : "We’re here to put a dent in the universe.”"
   },
   {
     avatar : AVTR1,
-    name: "Martin Golding",
-    review : "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live."
+    name: "Elon Musk",
+    review : "I think it is possible for ordinary people to choose to be extraordinary"
   },
 ]
 
@@ -46,7 +46,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id = 'testimonials'>
-    <h5>Adieu!</h5>
+    <h5>Have a Look!</h5>
     <h2>Few Words</h2>
      <h5>Sideways Scroll</h5>
     <Swiper className="container testimonial__container">

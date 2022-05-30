@@ -99,14 +99,14 @@ a:hover{
 
 .btn:hover{
    background: var(--color-black);
-   color: var(--color-bg);
+   color: var(--color-light);
    border: transparent;
 }
 
 
 .btn-primary{
     background: var(--color-primary);
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
 img {

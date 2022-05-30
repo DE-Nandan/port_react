@@ -85,3 +85,12 @@ header{
         display: none;
     }
 } 
+.TypeW{
+    color: black;
+    font-size: x-large;
+    color: var(--color-primary);
+}
+.TypeW2{
+    font-size: small;
+    color: var(--color-light);
+}
