@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/port_react/static/css/main.39f81e0f.css",
-    "main.js": "/port_react/static/js/main.e71e9092.js",
+    "main.css": "/port_react/static/css/main.5f9458aa.css",
+    "main.js": "/port_react/static/js/main.74a61a3e.js",
     "static/media/me3.jpg": "/port_react/static/media/me3.6b055a20b086725ed71c.jpg",
     "static/media/me.png": "/port_react/static/media/me.46aa29d99bf51da0fce8.png",
     "static/media/me5.jpg": "/port_react/static/media/me5.885bc1398285c380ae7d.jpg",
     "static/media/me4.jpg": "/port_react/static/media/me4.4057049abb2af737ff56.jpg",
     "static/media/NandanResume2.pdf": "/port_react/static/media/NandanResume2.ffb7a999a1547a7d318f.pdf",
+    "static/media/tile4.jpg": "/port_react/static/media/tile4.605f182da1e79ce992d1.jpg",
     "static/media/em.jpeg": "/port_react/static/media/em.3bb67c88321b37b01cf0.jpeg",
-    "static/media/tile2.webp": "/port_react/static/media/tile2.1d96cc980c89c50bdda4.webp",
     "index.html": "/port_react/index.html",
-    "main.39f81e0f.css.map": "/port_react/static/css/main.39f81e0f.css.map",
-    "main.e71e9092.js.map": "/port_react/static/js/main.e71e9092.js.map"
+    "main.5f9458aa.css.map": "/port_react/static/css/main.5f9458aa.css.map",
+    "main.74a61a3e.js.map": "/port_react/static/js/main.74a61a3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.39f81e0f.css",
-    "static/js/main.e71e9092.js"
+    "static/css/main.5f9458aa.css",
+    "static/js/main.74a61a3e.js"
   ]
 }
