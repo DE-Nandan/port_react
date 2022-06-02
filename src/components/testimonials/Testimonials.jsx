@@ -52,7 +52,7 @@ const Testimonials = () => {
   }, []);
   
   return (
-    <section id = 'testimonials' data-aos="zoom-in">
+    <section id = 'testimonials'>
     <h5>Have a Look!</h5>
     <h2>Few Words</h2>
      <h5>Sideways Scroll</h5>

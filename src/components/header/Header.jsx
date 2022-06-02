@@ -36,7 +36,7 @@ const Header = () => {
   }, []);
   return (
    <header>
-     <div className="container header__container" data-aos="fade-up">
+     <div className="container header__container">
       <h5>Hello I'm</h5>
       {/* <h1>Nandan Kumar</h1> */}
       <div className="TypeW">
