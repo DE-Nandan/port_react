@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "./portfolio.css"
 
@@ -53,13 +55,19 @@ const data = [
 ]
 
 
-const portfolio = () => {
+const Portfolio = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
   return (
     <section id = 'portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <div className="container portfolio__container" data-aos = "fade-left">
         {
           data.map(({id,image,title,github,demo}) =>{
             return(
@@ -83,4 +91,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio
+export default Portfolio

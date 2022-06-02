@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import './testimonials.css'
 
 import AVTR1 from '../../assets/quo4.png'
@@ -44,8 +46,13 @@ const data = [
 
 
 const Testimonials = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  
   return (
-    <section id = 'testimonials'>
+    <section id = 'testimonials' data-aos="zoom-in">
     <h5>Have a Look!</h5>
     <h2>Few Words</h2>
      <h5>Sideways Scroll</h5>

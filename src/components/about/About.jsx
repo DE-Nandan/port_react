@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import './about.css'
 import ME from '../../assets/me4.jpg'
 import {FaAward} from 'react-icons/fa'
@@ -7,12 +9,16 @@ import {GiGraduateCap} from 'react-icons/gi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id = 'about'>
      <h5>Get to know</h5>
      <h2>About Me</h2>
 
-     <div className='container about__container'>
+     <div className='container about__container' data-aos = "fade-right">
        <div className="about__me">
        <div className="about__me_img">
            <img src={ME} alt="About Image" />
@@ -42,10 +48,13 @@ const About = () => {
               <small>Participated in several <span style={{fontWeight: 'bold'}}>hackathons</span> and made some personel projects as well</small>
             </article>
           </div>
+          <div data-aos = "fade-up">
           <p>Programming Enthusiast with keen interst for development . Currently looking forward to work on several <span style={{fontWeight: 'bold'}}>web based and game development</span> projects . Working on a few as a personal project and ready to work on it for a client <br/>
           <br/> Enjoys Solving various <span style={{fontWeight: 'bold'}}>Data Structures and Algorithms</span> problems
           </p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
+         
        </div>
      </div>
     </section>

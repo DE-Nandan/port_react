@@ -47,6 +47,7 @@ header{
     margin-top: 4rem;
     transform: translateX(-50%);
     border-radius:12rem 12rem 0 0;
+    
 }
 .scroll__down{
     position: absolute;
