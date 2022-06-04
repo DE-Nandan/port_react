@@ -6,7 +6,7 @@ import "./portfolio.css"
 
 import IMG1 from '../../assets/em.jpeg'
 import IMG2 from '../../assets/dt.png'
-import IMG3 from '../../assets/me5.jpg'
+import IMG3 from '../../assets/mex.jpg'
 
 const data = [
 {
@@ -26,7 +26,7 @@ const data = [
 {
   id : 3,
   image : IMG3,
-  title : 'Portfolio Website (Under Development)',
+  title : 'Portfolio Website (This Website)',
   github : 'https://github.com/DE-Nandan/port_react',
   demo : 'demo.com'
 },
