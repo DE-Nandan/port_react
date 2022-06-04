@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/port_react/static/css/main.5f9458aa.css",
-    "main.js": "/port_react/static/js/main.f69358fb.js",
+    "main.js": "/port_react/static/js/main.0e0ecccb.js",
     "static/media/me3.jpg": "/port_react/static/media/me3.6b055a20b086725ed71c.jpg",
     "static/media/me.png": "/port_react/static/media/me.46aa29d99bf51da0fce8.png",
-    "static/media/me5.jpg": "/port_react/static/media/me5.885bc1398285c380ae7d.jpg",
+    "static/media/mex.jpg": "/port_react/static/media/mex.e5aa26e3fc8e9755eee6.jpg",
     "static/media/me4.jpg": "/port_react/static/media/me4.4057049abb2af737ff56.jpg",
-    "static/media/NandanResume2.pdf": "/port_react/static/media/NandanResume2.ffb7a999a1547a7d318f.pdf",
+    "static/media/NandanResume3.pdf": "/port_react/static/media/NandanResume3.2f7023cc9d6599f99984.pdf",
     "static/media/tile4.jpg": "/port_react/static/media/tile4.605f182da1e79ce992d1.jpg",
     "static/media/em.jpeg": "/port_react/static/media/em.3bb67c88321b37b01cf0.jpeg",
     "index.html": "/port_react/index.html",
     "main.5f9458aa.css.map": "/port_react/static/css/main.5f9458aa.css.map",
-    "main.f69358fb.js.map": "/port_react/static/js/main.f69358fb.js.map"
+    "main.0e0ecccb.js.map": "/port_react/static/js/main.0e0ecccb.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9458aa.css",
-    "static/js/main.f69358fb.js"
+    "static/js/main.0e0ecccb.js"
   ]
 }
