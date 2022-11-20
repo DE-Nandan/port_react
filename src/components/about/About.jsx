@@ -31,7 +31,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Intermediate at Programming And Web Development</small>
+              <small>Intermediate at Programming , Web and App Development</small>
             </article>
             
             <article className='about__card'>
@@ -49,8 +49,8 @@ const About = () => {
             </article>
           </div>
           
-          <p>Programming Enthusiast with keen interst for development . Currently looking forward to work on several <span style={{fontWeight: 'bold'}}>web based and game development</span> projects . Working on a few as a personal project and ready to work on it for a client <br/>
-          <br/> Enjoys Solving various <span style={{fontWeight: 'bold'}}>Data Structures and Algorithms</span> problems
+          <p>Programming Enthusiast with keen interst for development . Currently looking forward to work on several <span style={{fontWeight: 'bold'}}>web based and android development</span> projects . Working on a few as a personal project and ready to work on it for a client <br/>
+          <br/> Enjoys Solving various <span style={{fontWeight: 'bold'}}>Data Structures , Algorithms and Object Oriented </span> problems
           </p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           

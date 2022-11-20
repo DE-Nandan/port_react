@@ -61,6 +61,13 @@ const Experience = () => {
              <small className='text-light'>Intermediate</small>
              </div>
             </article>
+            <article className='experience__details'>
+             <BsPatchCheckFill className = 'experience__details-icon'/>
+             <div>
+             <h4>XML Designs</h4>
+             <small className='text-light'>Intermediate</small>
+             </div>
+            </article>
           </div>
         </div>
         <div className="experience__backend">
@@ -106,6 +113,27 @@ const Experience = () => {
              <div>
              <h4>Django</h4>
              <small className='text-light'>Basic</small>
+             </div>
+            </article>
+            <article className='experience__details'>
+             <BsPatchCheckFill className = 'experience__details-icon'/>
+             <div>
+             <h4>Java</h4>
+             <small className='text-light'>Intermediate</small>
+             </div>
+            </article>
+            <article className='experience__details'>
+             <BsPatchCheckFill className = 'experience__details-icon'/>
+             <div>
+             <h4>Express</h4>
+             <small className='text-light'>Intermediate</small>
+             </div>
+            </article>
+            <article className='experience__details'>
+             <BsPatchCheckFill className = 'experience__details-icon'/>
+             <div>
+             <h4>Firebase</h4>
+             <small className='text-light'>Intermediate</small>
              </div>
             </article>
           </div>

@@ -7,12 +7,13 @@ import "./portfolio.css"
 import IMG1 from '../../assets/em.jpeg'
 import IMG2 from '../../assets/dt.png'
 import IMG3 from '../../assets/mex.jpg'
+import IMG4 from '../../assets/splash.jpeg'
 
 const data = [
 {
   id : 1,
   image : IMG2,
-  title : 'Diagnosis Tracker (05/2020)',
+  title : 'Diagnosis Tracker (11/2021)',
   github : 'https://github.com/DE-Nandan/Devjam-DayNightCoders-',
   demo : 'demo.com'
 },
@@ -30,13 +31,13 @@ const data = [
   github : 'https://github.com/DE-Nandan/port_react',
   demo : 'demo.com'
 },
-// {
-//   id : 4,
-//   image : IMG1,
-//   title : 'Title',
-//   github : 'github.com',
-//   demo : 'demo.com'
-// },
+{
+  id : 4,
+  image : IMG4,
+  title : 'DE-ICHIRAKU(11/2022)',
+  github : 'https://github.com/DE-Nandan/de_ichiraku_2022',
+  demo : 'demo.com'
+},
 // {
 //   id : 5,
 //   image : IMG1,

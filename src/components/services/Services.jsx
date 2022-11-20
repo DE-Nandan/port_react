@@ -19,13 +19,13 @@ const Services = () => {
       <article className='service'>
         <div className="service__head">
           <h3>
-            UI/UX Design
+            Andriod Development
           </h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Works on projects related to Front End Development made on React</p>
+            <p>Works on development of Android Apps</p>
           </li>
         </ul>
       </article>

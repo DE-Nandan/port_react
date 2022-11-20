@@ -63,7 +63,7 @@ const Header = () => {
        typewriter
        .pauseFor(1000)  
 
-       .typeString("Programmer | Web Developer")
+       .typeString("Programmer | Web & Android Developer")
          
       
       //  .deleteAll()
