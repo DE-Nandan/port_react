@@ -45,15 +45,17 @@ const Services = () => {
       <article className='service'>
         <div className="service__head">
           <h3>
-            Programming
+            DevOps and Cloud
           </h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Can work on various algorithmic problems in various projects</p>
+            <p>Well versed with DevOps and Cloud Technologies</p>
           </li>
         </ul>
+
+        
       </article>
     </div>
     </section>

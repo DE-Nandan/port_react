@@ -31,13 +31,13 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Intermediate at Programming , Web and App Development</small>
+              <small> <span style={{fontWeight: 'bold'}}>Former SDE Intern at Oracle</span> , Web and App Developer</small>
             </article>
             
             <article className='about__card'>
               <GiGraduateCap className='about__icon'/>
               <h5>Education</h5>
-              <small>B.Tech from <span style={{fontWeight: 'bold'}}>National Institute of Technology Allahabad</span> <br />Current CPI : 9.18
+              <small>B.Tech from <span style={{fontWeight: 'bold'}}>National Institute of Technology Allahabad</span> <br />Current CPI : 8.07
               
               </small>
             </article>
@@ -45,12 +45,20 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Project</h5>
-              <small>Participated in several <span style={{fontWeight: 'bold'}}>hackathons</span> and made some personel projects as well</small>
+              <small>Developed and Upgraded Opeartional tools at <span style={{fontWeight: 'bold'}}>Oracle (OCI VCN)</span> and developed various projects in  <span style={{fontWeight: 'bold'}}>hackathons</span></small>
             </article>
           </div>
           
-          <p>Programming Enthusiast with keen interst for development . Currently looking forward to work on several <span style={{fontWeight: 'bold'}}>web based and android development</span> projects . Working on a few as a personal project and ready to work on it for a client <br/>
-          <br/> Enjoys Solving various <span style={{fontWeight: 'bold'}}>Data Structures , Algorithms and Object Oriented </span> problems
+          <p>
+          In summer of 2023 I have
+worked as a <span style={{fontWeight: 'bold'}}>Project intern in Oracle</span> where I have worked on 3 projects <br/> 
+<span style={{fontWeight: 'bold'}}>
+I mainly dealt with with :
+REST APIs · Java · Python · OCI · Shell Scripting · Docker · Curl · Maven · Computer Networking<br/>
+</span>
+I have a good experience in developing <span style={{fontWeight: 'bold'}}> full stack applications with major interest in Back-end Development and Cloud Technologies
+like AWS and OCI </span> which i think would help your company and also provide me with the professional working experience.
+Please do refer my resume for knowing about my work and skills.
           </p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           

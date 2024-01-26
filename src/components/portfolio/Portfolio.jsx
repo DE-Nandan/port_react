@@ -8,6 +8,7 @@ import IMG1 from '../../assets/em.jpeg'
 import IMG2 from '../../assets/dt.png'
 import IMG3 from '../../assets/mex.jpg'
 import IMG4 from '../../assets/splash.jpeg'
+import IMG5 from '../../assets/arc3.png'
 
 const data = [
 {
@@ -32,19 +33,20 @@ const data = [
   demo : 'demo.com'
 },
 {
-  id : 4,
+
+  id : 5,
+  image : IMG5,
+  title : 'ARCurve',
+  github : 'https://github.com/DE-Nandan/AR-Curve',
+  demo : 'demo.com'
+},
+{
+   id : 4,
   image : IMG4,
   title : 'DE-ICHIRAKU(11/2022)',
   github : 'https://github.com/DE-Nandan/de_ichiraku_2022',
   demo : 'demo.com'
 },
-// {
-//   id : 5,
-//   image : IMG1,
-//   title : 'Title',
-//   github : 'github.com',
-//   demo : 'demo.com'
-// },
 // {
 //   id : 6,
 //   image : IMG1,
